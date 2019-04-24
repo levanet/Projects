@@ -245,6 +245,7 @@ int main()
 		flag = slonk.hod(flag, arr);
 		cout << "flag= " << flag << endl;
 	}
+	cout<<"Hello world in GitHub!!!!";
 	system("pause");
 	return 0;
 }
