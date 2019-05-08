@@ -1,0 +1,57 @@
+'''n=int(input("vvod kol-va chisel"))
+arr=[]
+for i in range(n):
+    arr.append(int(input("vvedi element massiva ")))
+    arr.append(arr[i]**2)
+    arr.pop(i)
+print("mossev ",arr)'''
+
+'''
+from random import randrange
+n=int(input("vvod kol-va chisel"))
+arr=[]
+for i in range(n):
+    arr.append(randrange(1,9))
+print('mossev ',arr)'''
+
+'''
+n=10
+arr=[]
+arrnew=[]
+for i in range(n):
+    print("vvedi",i+1,"element massiva ")
+    arr.append(int(input()))
+    if arr[i]%2==0:
+        arrnew.append(arr[i])
+print(arrnew)        
+
+for i in range(n):
+    if arr[i]%2!=0:
+         arrnew.append(arr[i])
+print(arr)
+print(arrnew)    '''    
+
+'''
+n=int(input("vvod kol-va chisel"))
+arr=[]
+for i in range(n):
+    print("vvedi",i+1,"element massiva ")
+    m=int(input())
+    arr.append(m)
+    if arr[i]%2==0:
+        print("chislo",m,"ego kvadrat:",m**2)
+'''
+
+'''
+cartage=(2,1,3)
+arr=[]
+arr=list(cartage)
+arr.sort()
+print(arr)
+'''
+
+arr=[]
+from random import randrange as rnd
+for i in range(10):
+    arr.append(rnd(0,6))
+print(tuple(arr))
