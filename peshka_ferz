@@ -299,5 +299,6 @@ int main()
 		cout << "flag= " << flag << endl;
 	}
 	system("pause");
+	
 	return 0;
 }
