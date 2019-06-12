@@ -30,7 +30,6 @@ for i in range(n):
          arrnew.append(arr[i])
 print(arr)
 print(arrnew)    '''    
-
 '''
 n=int(input("vvod kol-va chisel"))
 arr=[]
