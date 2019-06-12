@@ -1,1 +1,1 @@
-Code for moving of chess figures 
+Code for moving of chess figures
